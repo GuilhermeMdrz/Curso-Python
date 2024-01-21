@@ -13,3 +13,4 @@ print('Os valores pares digitados foram: ', end='')
 for a in nums:
     if a % 2 == 0:
         print(a, end=' ')
+#Vasco
