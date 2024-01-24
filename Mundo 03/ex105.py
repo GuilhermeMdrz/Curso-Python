@@ -1,4 +1,10 @@
 def notas(*n, sit=False):
+    """
+    -> Analisa as notas de um aluno e mostra algumas informações.
+    :panam n: Notas a serem analisadas.
+    :panam sit: (Opcional) Mostra a situação de acordo com a média.
+    :return: Retorna os dados após serem analisados.
+    """
     r = {}
     r['total'] = len(n)
     r['maior'] = max(n)
