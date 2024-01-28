@@ -1,3 +1,3 @@
-from ex111M import dados
+from ex111M import moeda
 num = int(input('Digite um valor: R$'))
-dados.resumo(num, 20, 30)
+moeda.resumo(num, 20, 30)
